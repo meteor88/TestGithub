@@ -29,7 +29,7 @@ func main() {
 	}
 	fmt.Println()
 
-	bs, err := ioutil.ReadFile("d:/Temp/lotto/number.txt")
+	bs, err := ioutil.ReadFile("testdata/number.txt")
 	if err != nil {
 		panic(err)
 	}
