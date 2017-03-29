@@ -5,7 +5,6 @@ import (
 	"fmt"
 	"net"
 )
-import _ "myGoProjects/mylib"
 
 func server() {
 	// 포트 대기
