@@ -22,7 +22,7 @@ func thisweekLotto() {
 }
 
 func main() {
-	fmt.Println("금주번호 : ")
+	fmt.Println("금주번호 -> ")
 	for i := 0; i < 5; i++ {
 		thisweekLotto()
 		time.Sleep(100 * time.Millisecond)
@@ -59,7 +59,7 @@ func main() {
 	sort.Ints(copyLottoArray)
 	var maxLottoCount int
 
-	fmt.Print("확률번호 : ")
+	fmt.Print("확률번호 -> ")
 	for i := 0; i < 6; i++ {
 		maxLottoCount = copyLottoArray[len(copyLottoArray)-1-i]
 		for count, arrayNum := range lottoArray {
